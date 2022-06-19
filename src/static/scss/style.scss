@@ -1,2 +1,6 @@
-@use 'components/hero';
-@use 'layout/lp';
+@import "variable_overrides";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import 'components/hero';
+@import 'layout/lp';
