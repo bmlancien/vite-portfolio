@@ -1,0 +1,7 @@
+@use '../variable_overrides' as v;
+
+@forward '../../../../node_modules/bootstrap/scss/bootstrap' with(
+  $primary: v.$primary
+);
+
+@forward 'variables';
